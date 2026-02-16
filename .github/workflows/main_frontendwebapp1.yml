@@ -8,6 +8,7 @@ on:
     branches:
       - main
   workflow_dispatch:
+  
 
 jobs:
   build:
@@ -56,3 +57,4 @@ jobs:
           app-name: 'Frontendwebapp1'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_75740CA98C714DEDB78CA41D800E5D28 }}
           package: .
+
